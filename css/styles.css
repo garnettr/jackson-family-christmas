@@ -103,6 +103,7 @@ header h1 {
     position: fixed;
     background: url("https://garnettr.github.io/jackson-family-christmas/img/house-large.png") no-repeat;
     background-size: contain;
+    background-position: center;
     margin: initial;
   }
 }
@@ -131,7 +132,7 @@ header h1 {
 
 .family-playlist {
   display: block;
-  top: 87%;
+  top: 80%;
   position: fixed;
   z-index: 10;
   height: 4rem;
@@ -148,6 +149,7 @@ header h1 {
     position: fixed;
     left: 3rem;
     bottom: 0;
+    top: 90%;
   }
 }
 
