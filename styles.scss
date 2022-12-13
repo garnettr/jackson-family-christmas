@@ -52,7 +52,7 @@
 Body {
   font-family: 'DM Serif Text', serif;
   background: #FFFFFF;
-  background: url('/img/07.png'),linear-gradient(to bottom, #fff, rgb(241,237,234));
+  background: url('https://garnettr.github.io/jackson-family-christmas/img/07.png'),linear-gradient(to bottom, #fff, rgb(241,237,234));
   background-attachment: fixed;
 }
 
@@ -112,7 +112,7 @@ header {
     width: 50vw;
     height: 100%;
 
-    background: url('/img/house.png') no-repeat top center;
+    background: url('https://garnettr.github.io/jackson-family-christmas/img/house.png') no-repeat top center;
     background-size: contain;
      
 
@@ -123,7 +123,7 @@ header {
       left: 1%;
       position: fixed;
 
-      background: url('/img/house-large.png') no-repeat;
+      background: url('https://garnettr.github.io/jackson-family-christmas/img/house-large.png') no-repeat;
       background-size: contain;
       margin: initial;
     }
@@ -138,13 +138,13 @@ header {
     top: 2rem;
     width: 27%;
     height: 95%;
-    // background-image: url('/img/house.png');
+    // background-image: url('https://garnettr.github.io/jackson-family-christmas/img/house.png');
     background-size: contain;
     background-repeat: no-repeat;
 
     @media only screen and (min-width: 821px) {
-      background-image: url('/img/fire-place-large.png');
-      right: 0;
+      background-image: url('https://garnettr.github.io/jackson-family-christmas/img/fire-place-large.png');
+      right: 3.5rem;
     }
   }
 
@@ -238,7 +238,7 @@ header {
 
       background-size: cover;
       background-repeat: no-repeat;
-      background-image: url('/img/wreath.png');
+      background-image: url('https://garnettr.github.io/jackson-family-christmas/img/wreath.png');
 
       top: 50%;
       left: 50%;
