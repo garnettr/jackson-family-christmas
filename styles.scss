@@ -1,0 +1,311 @@
+
+// ================
+// Fluid Type Scaling
+
+@mixin fluidTypeSize($_f-maxFont, $_f-minFont: 1, $_mq-maxWidth: 75, $_mq-minWidth: 20) {
+
+  ////// Description:
+    // - mixin to fluidly scale type from a minimum font size to a maximum font size, within a range of screen sizes, while maintaining ability for user to adjust preferred base font size
+    ////
+  
+  ////// @param $_f-maxFont
+    // - the largest size that the type should be
+    // - should be a UNITLESS value (but will ultimately have rem appended)
+    // - REQUIRED parameter
+    ////
+  
+  ////// @param $_f-minFont
+    // - the smallest size that the type should be
+    // - should be a UNITLESS value (but will ultimately have rem appended)
+    // - defaults to the root font size
+    ////
+  
+  ////// @param $_mq-maxWidth
+    // - the screen size at which the max font size should be reached and the type should stop growing
+    // - should be a UNITLESS value (but will ultimately have em appended)
+    // - defaults to 75em (1200px)
+    ////
+  
+  ////// @param $_mq-minWidth
+    // - the screen size at which the type should begin to scale from small to large
+    // - should be a UNITLESS value (but will ultimately have em appended)
+    // - defaults to 20em (320px)
+    ////
+  
+  ////// Instructions:
+    // - Do not apply to the html or body elements
+    // - Reserve use for larger display type, not body type
+    ////
+  
+    font-size: #{$_f-minFont}rem;
+  
+    @media (min-width: #{$_mq-minWidth}rem) and (max-width: #{$_mq-maxWidth}rem) {
+      font-size: calc( #{$_f-minFont}rem + (#{$_f-maxFont} - #{$_f-minFont}) * ( (100vw - #{$_mq-minWidth}rem) / ( #{$_mq-maxWidth} - #{$_mq-minWidth}) ));
+    }
+  
+    @media (min-width: #{$_mq-maxWidth}rem) {
+      font-size: #{$_f-maxFont}rem;
+    }
+  }
+  
+
+Body {
+  font-family: 'DM Serif Text', serif;
+  background: #FFFFFF;
+  background: url('/img/07.png'),linear-gradient(to bottom, #fff, rgb(241,237,234));
+  background-attachment: fixed;
+}
+
+header {
+  text-align: center;
+
+  h1 {
+    font-size: 1.125rem;
+  }
+}
+
+.intro {
+  position: relative;
+  display: block;
+  text-align: center;
+
+  margin-top: 9rem;
+  padding: 5%;
+
+  @media only screen and (min-width: 821px) {
+    margin-top: 3rem;
+  }
+
+  h2 {
+    color: #ca3b3d;
+    font-size: 4rem;
+    line-height: 1.125;
+    position: relative;
+    margin-top: 0;
+    z-index: 2;
+
+    @include fluidTypeSize(5.25, 3, $_mq-maxWidth: 75, $_mq-minWidth: 20);
+
+    @media only screen and (min-width: 768px) {
+      line-height: 1.5;
+    }
+  }
+
+  p {
+    color: #0e5e3e;
+    @include fluidTypeSize(1.5, 1.125, $_mq-maxWidth: 75, $_mq-minWidth: 20);
+    @media only screen and (min-width: 768px) {
+      width: 62vw;
+      margin: auto;
+      max-width: 30rem;
+    }
+  }
+  // Christmas House
+  &::before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    top: -9rem;
+    width: 50vw;
+    height: 100%;
+
+    background: url('/img/house.png') no-repeat top center;
+    background-size: contain;
+     
+
+    @media only screen and (min-width: 821px) {
+      top: 9rem;
+      height: 100%;
+      width: 28vw;
+      left: 1%;
+      position: fixed;
+
+      background: url('/img/house-large.png') no-repeat;
+      background-size: contain;
+      margin: initial;
+    }
+  }
+
+
+  // Christmas Chair
+  &:after {
+    content: " ";
+    position: absolute;
+    right: 5rem;
+    top: 2rem;
+    width: 27%;
+    height: 95%;
+    // background-image: url('/img/house.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    @media only screen and (min-width: 821px) {
+      background-image: url('/img/fire-place-large.png');
+      right: 0;
+    }
+  }
+
+
+  h2 {
+    margin-bottom: 0;
+  }
+}
+
+.family-playlist {
+  display: block;
+  top: 90%;
+  position: fixed;
+  z-index: 10;
+  height: 4rem;
+  width: 97%;
+
+  iframe {
+    height: 6rem;
+  }
+
+  @media only screen and (min-width: 821px) {
+    width: 28vw;
+    position: fixed;
+    left: 3rem;
+    bottom: 0;
+  }
+}
+
+  // ===============
+  //  Animation KeyFrames
+
+  @keyframes slidein {
+    from {
+      top: 3em;
+      opacity: 0;
+    }
+  
+    to {
+      top: 0;
+      opacity: 100%;
+    }
+  }
+
+#family-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  margin: auto;
+
+  @media only screen and (min-width: 821px) {
+    padding-left: 30vw;
+    padding-right: 3rem;
+  }
+
+  div {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    margin: 5% 8%;
+
+    top: 3rem;
+    opacity: 0;
+    
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+
+    @media only screen and (min-width: 600px) {
+      margin: 5% 3%;
+    }
+
+    @media only screen and (min-width: 768px) {
+      width: 10rem;
+      height: 10rem;
+      margin: 5%;
+    }
+
+
+    // wreath image
+    &:before {
+      content: " ";
+      position: absolute;
+
+      width: 9rem;
+      height: 9rem;
+
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: url('/img/wreath.png');
+
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      @media only screen and (min-width: 768px) {
+        width: 14rem;
+        height: 14rem;
+      }
+    }
+
+    //  css gradient
+    &:after {
+      content: " ";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      border-radius: 50%;
+      background: linear-gradient(0deg, #630202 0%, rgba(0,85,58,0) 36%);
+    }
+
+
+    &.slideUp {
+      top: 0;
+      opacity: 100%;
+
+      transition: top 1s ease-in-out, opacity 1s ease-in-out, transform .5s ease-in-out;
+    }
+
+      &:hover,
+      &:active
+      {
+        transform: scale(1.5);
+        z-index: 5;
+      }
+
+    img {
+      position: absolute;
+      object-fit: cover;
+      border: 2px solid white;
+
+      width: auto;
+     
+      left: 50%;
+      top: 50%;
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+
+      min-width: 100%;
+      min-height: 100%;
+      
+    }
+
+    span {
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 2rem;
+      color: wheat;
+
+      text-transform: capitalize;
+      z-index: 5;
+      bottom: 0;
+    }
+  }
+}
+
+
+
