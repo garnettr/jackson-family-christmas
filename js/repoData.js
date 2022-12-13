@@ -9,255 +9,255 @@ export const data = [
   [
     {
        imgName: 'pam',
-       imgSrc: '/img/pam-shaw.jpeg',
+       imgSrc: 'jackson-family-christmas/img/pam-shaw.jpeg',
     },
     {
       imgName: 'alton',
-      imgSrc: '/img//alton-shaw.jpeg',
+      imgSrc: 'jackson-family-christmas/img//alton-shaw.jpeg',
    },
    {
     imgName: 'brit',
-    imgSrc: '/img/brit-flood.jpeg',
+    imgSrc: 'jackson-family-christmas/img/brit-flood.jpeg',
   },
   {
     imgName: 'william',
-    imgSrc: '/img/william-flood.jpeg',
+    imgSrc: 'jackson-family-christmas/img/william-flood.jpeg',
   },
   {
     imgName: 'tramesha',
-    imgSrc: '/img/tramesha-flood.jpeg',
+    imgSrc: 'jackson-family-christmas/img/tramesha-flood.jpeg',
   },
   {
     imgName: 'kayla',
-    imgSrc: '/img/kayla-veloz.jpeg',
+    imgSrc: 'jackson-family-christmas/img/kayla-veloz.jpeg',
   },  
   {
     imgName: 'riley',
-    imgSrc: '/img/riley-flood.jpeg',
+    imgSrc: 'jackson-family-christmas/img/riley-flood.jpeg',
   },
   {
     imgName: 'chalie',
-    imgSrc: '/img/chalie-flood.jpeg',
+    imgSrc: 'jackson-family-christmas/img/chalie-flood.jpeg',
   },
   {
     imgName: 'cameron',
-    imgSrc: '/img/cameron-flood.jpeg',
+    imgSrc: 'jackson-family-christmas/img/cameron-flood.jpeg',
   },
   {
     imgName: 'gail',
-    imgSrc: '/img/gail-minor.jpeg',
+    imgSrc: 'jackson-family-christmas/img/gail-minor.jpeg',
   },
   {
     imgName: 'michael',
-    imgSrc: '/img/michael-minor.jpeg',
+    imgSrc: 'jackson-family-christmas/img/michael-minor.jpeg',
   },
   {
     imgName: 'leanda',
-    imgSrc: '/img/leanda-feaster.jpeg',
+    imgSrc: 'jackson-family-christmas/img/leanda-feaster.jpeg',
   },
   {
     imgName: 'shawn',
-    imgSrc: '/img/shawn-taylor.jpeg',
+    imgSrc: 'jackson-family-christmas/img/shawn-taylor.jpeg',
   },
   {
     imgName: 'reggie',
-    imgSrc: '/img/reggie-taylor.jpeg',
+    imgSrc: 'jackson-family-christmas/img/reggie-taylor.jpeg',
   },
   {
     imgName: 'edward',
-    imgSrc: '/img/edward-taylor.jpeg',
+    imgSrc: 'jackson-family-christmas/img/edward-taylor.jpeg',
   },
   {
     imgName: 'brandon',
-    imgSrc: '/img/brandon-taylor.jpeg',
+    imgSrc: 'jackson-family-christmas/img/brandon-taylor.jpeg',
   },
   {
     imgName: 'eric',
-    imgSrc: '/img/eric-armstead.jpeg',
+    imgSrc: 'jackson-family-christmas/img/eric-armstead.jpeg',
   },
   {
     imgName: 'katrina',
-    imgSrc: '/img/katrina-armstead.jpeg',
+    imgSrc: 'jackson-family-christmas/img/katrina-armstead.jpeg',
   },
   {
     imgName: 'ericka',
-    imgSrc: '/img/ericka-armsted.jpeg',
+    imgSrc: 'jackson-family-christmas/img/ericka-armsted.jpeg',
   },
   {
     imgName: 'maya',
-    imgSrc: '/img/maya-armstead.jpeg',
+    imgSrc: 'jackson-family-christmas/img/maya-armstead.jpeg',
   },
   {
     imgName: 'mykel',
-    imgSrc: '/img/mykel-armstead.jpeg',
+    imgSrc: 'jackson-family-christmas/img/mykel-armstead.jpeg',
   },
   {
     imgName: 'darlene',
-    imgSrc: '/img/darlene-cook.jpeg',
+    imgSrc: 'jackson-family-christmas/img/darlene-cook.jpeg',
   },
   {
     imgName: 'kj',
-    imgSrc: '/img/kj-armstead.jpeg',
+    imgSrc: 'jackson-family-christmas/img/kj-armstead.jpeg',
   },
   {
     imgName: 'kristian',
-    imgSrc: '/img/kristian-roman.jpeg',
+    imgSrc: 'jackson-family-christmas/img/kristian-roman.jpeg',
   },
   {
     imgName: 'remelda',
-    imgSrc: '/img/remelda-jackson.jpeg',
+    imgSrc: 'jackson-family-christmas/img/remelda-jackson.jpeg',
   },
   {
     imgName: 'jeff',
-    imgSrc: '/img/jeff-rollins.jpeg',
+    imgSrc: 'jackson-family-christmas/img/jeff-rollins.jpeg',
   },
   {
     imgName: 'kotonya',
-    imgSrc: '/img/kotonya-rollins.jpeg',
+    imgSrc: 'jackson-family-christmas/img/kotonya-rollins.jpeg',
   },
   {
     imgName: 'kianna',
-    imgSrc: '/img/kianna-rollins.jpeg',
+    imgSrc: 'jackson-family-christmas/img/kianna-rollins.jpeg',
   },
   {
     imgName: 'erin',
-    imgSrc: '/img/erin-rollins.jpeg',
+    imgSrc: 'jackson-family-christmas/img/erin-rollins.jpeg',
   },
   {
     imgName: 'donna',
-    imgSrc: '/img/donna-stephens.jpeg',
+    imgSrc: 'jackson-family-christmas/img/donna-stephens.jpeg',
   },
   {
     imgName: 'jaxon',
-    imgSrc: '/img/jaxon-rollins.jpeg',
+    imgSrc: 'jackson-family-christmas/img/jaxon-rollins.jpeg',
   },
   {
     imgName: 'ronnel',
-    imgSrc: '/img/ronnel-coghill.jpeg',
+    imgSrc: 'jackson-family-christmas/img/ronnel-coghill.jpeg',
   },
   {
     imgName: 'lauryn',
-    imgSrc: '/img/lauryn-wilson.jpeg',
+    imgSrc: 'jackson-family-christmas/img/lauryn-wilson.jpeg',
   },
   {
     imgName: 'aubrey',
-    imgSrc: '/img/aubrey-wilson.jpeg',
+    imgSrc: 'jackson-family-christmas/img/aubrey-wilson.jpeg',
   },
   {
     imgName: 'kay',
-    imgSrc: '/img/kay-bell.jpeg',
+    imgSrc: 'jackson-family-christmas/img/kay-bell.jpeg',
   },
   {
     imgName: 'greg',
-    imgSrc: '/img/greg-bell.jpeg',
+    imgSrc: 'jackson-family-christmas/img/greg-bell.jpeg',
   },
   {
     imgName: 'tiffany',
-    imgSrc: '/img/tiffany-bell.jpeg',
+    imgSrc: 'jackson-family-christmas/img/tiffany-bell.jpeg',
   },
   {
     imgName: 'nicole',
-    imgSrc: '/img/nicole-bell.jpeg',
+    imgSrc: 'jackson-family-christmas/img/nicole-bell.jpeg',
   },
   {
     imgName: 'jackie',
-    imgSrc: '/img/jackie-welch.jpeg',
+    imgSrc: 'jackson-family-christmas/img/jackie-welch.jpeg',
   },
   {
     imgName: 'stephanie',
-    imgSrc: '/img/stephanie-bell.jpeg',
+    imgSrc: 'jackson-family-christmas/img/stephanie-bell.jpeg',
   },
   {
     imgName: 'caitlin',
-    imgSrc: '/img/caitlin-bell.jpeg',
+    imgSrc: 'jackson-family-christmas/img/caitlin-bell.jpeg',
   },
   {
     imgName: 'Boo',
-    imgSrc: '/img/boo.jpeg',
+    imgSrc: 'jackson-family-christmas/img/boo.jpeg',
   },
   {
     imgName: 'margaet',
-    imgSrc: '/img/margaet-hale.jpeg',
+    imgSrc: 'jackson-family-christmas/img/margaet-hale.jpeg',
   },
   {
     imgName: 'Diaunte',
-    imgSrc: '/img/Diaunte-bell.jpeg',
+    imgSrc: 'jackson-family-christmas/img/Diaunte-bell.jpeg',
   },
   {
     imgName: 'josh',
-    imgSrc: '/img/josh-hale.jpeg',
+    imgSrc: 'jackson-family-christmas/img/josh-hale.jpeg',
   },
   {
     imgName: 'angela',
-    imgSrc: '/img/angela-web.jpeg',
+    imgSrc: 'jackson-family-christmas/img/angela-web.jpeg',
   },
   {
     imgName: 'Devin',
-    imgSrc: '/img/djordan-jpeg.jpeg',
+    imgSrc: 'jackson-family-christmas/img/djordan-jpeg.jpeg',
   },
   {
     imgName: 'tierra',
-    imgSrc: '/img/tierra-jordan.jpeg',
+    imgSrc: 'jackson-family-christmas/img/tierra-jordan.jpeg',
   },
   {
     imgName: 'elijah',
-    imgSrc: '/img/elijah-kay.jpeg',
+    imgSrc: 'jackson-family-christmas/img/elijah-kay.jpeg',
   },
   {
     imgName: 'niecy',
-    imgSrc: '/img/niecy-jackson.jpeg',
+    imgSrc: 'jackson-family-christmas/img/niecy-jackson.jpeg',
   },
   {
     imgName: 'remelda',
-    imgSrc: '/img/remelda-jackson.jpeg',
+    imgSrc: 'jackson-family-christmas/img/remelda-jackson.jpeg',
   },
   {
     imgName: 'janice',
-    imgSrc: '/img/janice-lucas.jpeg',
+    imgSrc: 'jackson-family-christmas/img/janice-lucas.jpeg',
   },
   {
     imgName: 'gail',
-    imgSrc: '/img/gail-minor.jpeg',
+    imgSrc: 'jackson-family-christmas/img/gail-minor.jpeg',
   },
   {
     imgName: 'michael',
-    imgSrc: '/img/michael-minor.jpeg',
+    imgSrc: 'jackson-family-christmas/img/michael-minor.jpeg',
   },
   {
     imgName: 'alyssa',
-    imgSrc: '/img/alyssa-renee.jpeg',
+    imgSrc: 'jackson-family-christmas/img/alyssa-renee.jpeg',
   },
   {
     imgName: 'angela',
-    imgSrc: '/img/angela-washington.jpeg',
+    imgSrc: 'jackson-family-christmas/img/angela-washington.jpeg',
   },
   {
     imgName: 'darius',
-    imgSrc: '/img/darius-wash.jpeg',
+    imgSrc: 'jackson-family-christmas/img/darius-wash.jpeg',
   },
   {
     imgName: 'charles',
-    imgSrc: '/img/charles-garnett.jpeg',
+    imgSrc: 'jackson-family-christmas/img/charles-garnett.jpeg',
   },
   {
     imgName: 'audrey',
-    imgSrc: '/img/audrey-garnett.jpeg',
+    imgSrc: 'jackson-family-christmas/img/audrey-garnett.jpeg',
   },
   {
     imgName: 'melissa',
-    imgSrc: '/img/melissa-garnett.jpeg',
+    imgSrc: 'jackson-family-christmas/img/melissa-garnett.jpeg',
   },
   {
     imgName: 'ian',
-    imgSrc: '/img/ian-garnett.jpeg',
+    imgSrc: 'jackson-family-christmas/img/ian-garnett.jpeg',
   },
   {
     imgName: 'jai',
-    imgSrc: '/img/jai-franklin.jpeg',
+    imgSrc: 'jackson-family-christmas/img/jai-franklin.jpeg',
   },
   {
     imgName: 'terri',
-    imgSrc: '/img/terri-eiland.jpeg',
+    imgSrc: 'jackson-family-christmas/img/terri-eiland.jpeg',
   }
 
   ]
