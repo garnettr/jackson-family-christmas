@@ -122,6 +122,7 @@ header h1 {
 @media only screen and (min-width: 821px) {
   .intro:after {
     background-image: url("https://garnettr.github.io/jackson-family-christmas/img/fire-place-large.png");
+    background-position: center;
     right: 3.5rem;
   }
 }
