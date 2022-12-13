@@ -29,7 +29,7 @@ const generateIcon = function(obj, container) {
      // New IMG Element for Icon
      let newImg = document.createElement("img");
      // Loop through and add attributes 
-     setAttributes(newImg, {"src": imgSrc, "alt": imgName+" " +"profile picture", "width": '100px', "height": '100px'});
+     setAttributes(newImg, {"src": imgSrc, "loading": "lazy", "alt": imgName+" " +"profile picture", "width": '100px', "height": '100px'});
 
     // New Span Element for Image title
     let newImgTitle = document.createElement("span");
