@@ -9,256 +9,301 @@ export const data = [
   [
     {
        imgName: 'pam',
-       imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/pam-shaw-min.jpeg',
+       imgSrc: './img/imgsmall/pam-shaw-min.jpg',
     },
     {
       imgName: 'alton',
-      imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img//alton-shaw-min.jpeg',
+      imgSrc: './img/imgsmall/alton-shaw-min.jpg',
    },
    {
     imgName: 'brit',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/brit-flood-min.jpeg',
+    imgSrc: '/img/imgsmall/brit-flood-min.jpg',
   },
   {
     imgName: 'william',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/william-flood-min.jpeg',
+    imgSrc: '/img/imgsmall/william-flood-min.jpg',
   },
   {
     imgName: 'tramesha',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/tramesha-flood-min.jpeg',
+    imgSrc: '/img/imgsmall/tramesha-flood-min.jpg',
   },
   {
     imgName: 'kayla',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/kayla-veloz-min.jpeg',
+    imgSrc: '/img/imgsmall/kayla-veloz-min.jpg',
   },  
   {
     imgName: 'riley',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/riley-flood-min.jpeg',
+    imgSrc: '/img/imgsmall/riley-flood-min.jpg',
   },
   {
     imgName: 'chalie',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/chalie-flood-min.jpeg',
+    imgSrc: '/img/imgsmall/chalie-flood-min.jpg',
   },
   {
     imgName: 'cameron',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/cameron-flood-min.jpeg',
+    imgSrc: '/img/imgsmall/cameron-flood-min.jpg',
   },
   {
     imgName: 'gail',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/gail-minor-min.jpeg',
+    imgSrc: '/img/imgsmall/gail-minor-min.jpg',
   },
   {
     imgName: 'michael',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/michael-minor-min.jpeg',
+    imgSrc: '/img/imgsmall/michael-minor-min.jpg',
   },
   {
     imgName: 'leanda',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/leanda-feaster-min.jpeg',
+    imgSrc: '/img/imgsmall/leanda-feaster-min.jpg',
   },
   {
     imgName: 'shawn',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/shawn-taylor-min.jpeg',
-  },
-  {
-    imgName: 'reggie',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/reggie-taylor-min.jpeg',
+    imgSrc: '/img/imgsmall/shawn-taylor-min.jpg',
   },
   {
     imgName: 'edward',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/edward-taylor-min.jpeg',
+    imgSrc: '/img/imgsmall/edward-taylor-min.jpg',
+  },
+  {
+    imgName: 'reggie',
+    imgSrc: '/img/imgsmall/reggie-taylor-min.jpg',
   },
   {
     imgName: 'brandon',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/brandon-taylor-min.jpeg',
+    imgSrc: '/img/imgsmall/brandon-taylor-min.jpg',
+  },
+  {
+    imgName: 'jenna',
+    imgSrc: '/img/imgsmall/jenna-taylor-min.jpg',
   },
   {
     imgName: 'eric',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/eric-armstead-min.jpeg',
+    imgSrc: '/img/imgsmall/eric-armstead-min.jpg',
   },
   {
     imgName: 'katrina',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/katrina-armstead-min.jpeg',
+    imgSrc: '/img/imgsmall/katrina-armstead-min.jpg',
   },
   {
     imgName: 'ericka',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/ericka-armsted-min.jpeg',
+    imgSrc: '/img/imgsmall/ericka-armsted-min.jpg',
   },
   {
     imgName: 'maya',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/maya-armstead-min.jpeg',
+    imgSrc: '/img/imgsmall/maya-armstead-min.jpg',
   },
   {
     imgName: 'mykel',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/mykel-armstead-min.jpeg',
+    imgSrc: '/img/imgsmall/mykel-armstead-min.jpg',
+  },
+  {
+    imgName: 'marlene',
+    imgSrc: '/img/imgsmall/marlene-bailey-min.jpg',
   },
   {
     imgName: 'darlene',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/darlene-cook-min.jpeg',
+    imgSrc: '/img/imgsmall/darlene-cook-min.jpg',
   },
   {
     imgName: 'kj',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/kj-armstead-min.jpeg',
+    imgSrc: '/img/imgsmall/kj-armstead-min.jpg',
   },
   {
     imgName: 'kristian',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/kristian-roman-min.jpeg',
-  },
-  {
-    imgName: 'remelda',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/remelda-jackson-min.jpeg',
-  },
-  {
-    imgName: 'jeff',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/jeff-rollins-min.jpeg',
-  },
-  {
-    imgName: 'kotonya',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/kotonya-rollins-min.jpeg',
-  },
-  {
-    imgName: 'kianna',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/kianna-rollins-min.jpeg',
-  },
-  {
-    imgName: 'erin',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/erin-rollins-min.jpeg',
-  },
-  {
-    imgName: 'donna',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/donna-stephens-min.jpeg',
-  },
-  {
-    imgName: 'jaxon',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/jaxon-rollins-min.jpeg',
-  },
-  {
-    imgName: 'ronnel',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/ronnel-coghill-min.jpeg',
-  },
-  {
-    imgName: 'lauryn',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/lauryn-wilson-min.jpeg',
-  },
-  {
-    imgName: 'aubrey',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/aubrey-wilson-min.jpeg',
-  },
-  {
-    imgName: 'kay',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/kay-bell-min.jpeg',
-  },
-  {
-    imgName: 'greg',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/greg-bell-min.jpeg',
-  },
-  {
-    imgName: 'tiffany',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/tiffany-bell-min.jpeg',
-  },
-  {
-    imgName: 'nicole',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/nicole-bell-min.jpeg',
-  },
-  {
-    imgName: 'jackie',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/jackie-welch-min.jpeg',
-  },
-  {
-    imgName: 'stephanie',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/stephanie-bell-min.jpeg',
-  },
-  {
-    imgName: 'caitlin',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/caitlin-bell-min.jpeg',
-  },
-  {
-    imgName: 'Boo',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/boo-min.jpeg',
-  },
-  {
-    imgName: 'margaet',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/margaet-hale-min.jpeg',
-  },
-  {
-    imgName: 'Diaunte',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/Diaunte-bell-min.jpeg',
-  },
-  {
-    imgName: 'josh',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/josh-hale-min.jpeg',
-  },
-  {
-    imgName: 'angela',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/angela-web-min.jpeg',
-  },
-  {
-    imgName: 'Devin',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/djordan-jpeg-min.jpeg',
-  },
-  {
-    imgName: 'tierra',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/tierra-jordan-min.jpeg',
-  },
-  {
-    imgName: 'elijah',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/elijah-kay-min.jpeg',
-  },
-  {
-    imgName: 'niecy',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/niecy-jackson-min.jpeg',
-  },
-  {
-    imgName: 'remelda',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/remelda-jackson-min.jpeg',
-  },
-  {
-    imgName: 'janice',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/janice-lucas-min.jpeg',
-  },
-  {
-    imgName: 'gail',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/gail-minor-min.jpeg',
-  },
-  {
-    imgName: 'michael',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/michael-minor-min.jpeg',
-  },
-  {
-    imgName: 'alyssa',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/alyssa-renee-min.jpeg',
-  },
-  {
-    imgName: 'angela',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/angela-washington-min.jpeg',
-  },
-  {
-    imgName: 'darius',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/darius-wash-min.jpeg',
+    imgSrc: '/img/imgsmall/kristian-roman-min.jpg',
   },
   {
     imgName: 'charles',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/charles-garnett-min.jpeg',
+    imgSrc: '/img/imgsmall/charles-garnett-min.jpg',
   },
   {
     imgName: 'audrey',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/audrey-garnett-min.jpeg',
+    imgSrc: '/img/imgsmall/audrey-garnett-min.jpg',
+  },
+  {
+    imgName: 'Charles',
+    imgSrc: '/img/imgsmall/chuck-garnett-min.jpeg',
   },
   {
     imgName: 'melissa',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/melissa-garnett-min.jpeg',
+    imgSrc: '/img/imgsmall/melissa-garnett-min.jpg',
   },
   {
     imgName: 'ian',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/ian-garnett-min.jpeg',
+    imgSrc: '/img/imgsmall/ian-garnett-min.jpg',
+  }, 
+  {
+    imgName: 'quin',
+    imgSrc: '/img/imgsmall/quin-freeman-min.jpeg',
+  },
+  {
+    imgName: 'remelda',
+    imgSrc: '/img/imgsmall/remelda-jackson-min.jpg',
+  },
+  {
+    imgName: 'jeff',
+    imgSrc: '/img/imgsmall/jeff-rollins-min.jpg',
+  },
+  {
+    imgName: 'kotonya',
+    imgSrc: '/img/imgsmall/kotonya-rollins-min.jpg',
+  },
+  {
+    imgName: 'kianna',
+    imgSrc: '/img/imgsmall/kianna-rollins-min.jpg',
+  },
+  {
+    imgName: 'stephanie',
+    imgSrc: '/img/imgsmall/stephanie-rollins-min.jpg',
+  },
+  {
+    imgName: 'torin',
+    imgSrc: '/img/imgsmall/torin-rollins-min.jpg',
+  },
+  {
+    imgName: 'jaxon',
+    imgSrc: '/img/imgsmall/jaxon-rollins-min.jpg',
+  },
+  {
+    imgName: 'toriana',
+    imgSrc: '/img/imgsmall/toriana-rollins-min.jpg',
+  },
+  {
+    imgName: 'erin',
+    imgSrc: '/img/imgsmall/erin-rollins-min.jpg',
+  },
+  {
+    imgName: 'donna',
+    imgSrc: '/img/imgsmall/donna-stephens-min.jpg',
+  },
+  {
+    imgName: 'ronnel',
+    imgSrc: '/img/imgsmall/ronnel-coghill-min.jpg',
+  },
+  {
+    imgName: 'lauryn',
+    imgSrc: '/img/imgsmall/lauryn-wilson-min.jpg',
+  },
+  {
+    imgName: 'aubrey',
+    imgSrc: '/img/imgsmall/aubrey-wilson-min.jpg',
+  },
+  {
+    imgName: 'kay',
+    imgSrc: '/img/imgsmall/kay-bell-min.jpg',
+  },
+  {
+    imgName: 'greg',
+    imgSrc: '/img/imgsmall/greg-bell-min.jpg',
+  },
+  {
+    imgName: 'tiffany',
+    imgSrc: '/img/imgsmall/tiffany-bell-min.jpg',
+  },
+  {
+    imgName: 'nicole',
+    imgSrc: '/img/imgsmall/nicole-bell-min.jpg',
+  },
+  {
+    imgName: 'jackie',
+    imgSrc: '/img/imgsmall/jackie-welch-min.jpg',
+  },
+  {
+    imgName: 'bryant',
+    imgSrc: '/img/imgsmall/bryant-bell-min.jpg',
+  },
+  {
+    imgName: 'stephanie',
+    imgSrc: '/img/imgsmall/stephanie-bell-min.jpg',
+  },
+  {
+    imgName: 'caitlin',
+    imgSrc: '/img/imgsmall/caitlin-bell-min.jpg',
+  },
+  {
+    imgName: 'Boo',
+    imgSrc: '/img/imgsmall/boo-min.jpg',
+  },
+  {
+    imgName: 'margaet',
+    imgSrc: '/img/imgsmall/margaet-hale-min.jpg',
+  },
+  {
+    imgName: 'Diaunte',
+    imgSrc: '/img/imgsmall/Diaunte-bell-min.jpg',
+  },
+  {
+    imgName: 'josh',
+    imgSrc: '/img/imgsmall/josh-hale-min.jpg',
+  },
+  {
+    imgName: 'angela',
+    imgSrc: '/img/imgsmall/angela-web-min.jpg',
+  },
+  {
+    imgName: 'Devin',
+    imgSrc: '/img/imgsmall/djordan-min.jpg',
+  },
+  {
+    imgName: 'tierra',
+    imgSrc: '/img/imgsmall/tierra-jordan-min.jpg',
+  },
+  {
+    imgName: 'elijah',
+    imgSrc: '/img/imgsmall/elijah-kay-min.jpg',
+  },
+  {
+    imgName: 'deshawn',
+    imgSrc: '/img/imgsmall/deshawn-jordan-min.jpg',
+  },
+  {
+    imgName: 'niecy',
+    imgSrc: '/img/imgsmall/niecy-jackson-min.jpg',
+  },
+  {
+    imgName: 'remelda',
+    imgSrc: '/img/imgsmall/remelda-jackson-min.jpg',
+  },
+  {
+    imgName: 'janice',
+    imgSrc: '/img/imgsmall/janice-lucas-min.jpg',
+  },
+  {
+    imgName: 'gail',
+    imgSrc: '/img/imgsmall/gail-minor-min.jpg',
+  },
+  {
+    imgName: 'michael',
+    imgSrc: '/img/imgsmall/michael-minor-min.jpg',
+  },
+  {
+    imgName: 'alyssa',
+    imgSrc: '/img/imgsmall/alyssa-renee-min.jpg',
+  },
+  {
+    imgName: 'angela',
+    imgSrc: '/img/imgsmall/angela-washington-min.jpg',
+  },
+  {
+    imgName: 'darius',
+    imgSrc: '/img/imgsmall/darius-wash-min.jpg',
   },
   {
     imgName: 'jai',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/jai-franklin-min.jpeg',
+    imgSrc: '/img/imgsmall/jai-franklin-min.jpg',
   },
   {
     imgName: 'terri',
-    imgSrc: 'https://garnettr.github.io/jackson-family-christmas/img/terri-eiland-min.jpeg',
+    imgSrc: '/img/imgsmall/terri-eiland-min.jpg',
+  },
+  {
+    imgName: 'sylenna',
+    imgSrc: '/img/imgsmall/sylenna-byrd-min.jpg',
+  },
+  {
+    imgName: 'lauren',
+    imgSrc: '/img/imgsmall/lauren-michelle-min.jpg',
   }
+
 
   ]
 
