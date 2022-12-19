@@ -224,12 +224,16 @@ export const data = [
     imgSrc: './img/imgsmall/boo-min.jpg',
   },
   {
-    imgName: 'margaet',
+    imgName: 'margaret',
     imgSrc: './img/imgsmall/margaet-hale-min.jpg',
   },
   {
     imgName: 'Diaunte',
     imgSrc: './img/imgsmall/Diaunte-bell-min.jpg',
+  },
+  {
+    imgName: 'raven',
+    imgSrc: './img/imgsmall/raven-bell-min.jpeg',
   },
   {
     imgName: 'josh',
@@ -302,6 +306,10 @@ export const data = [
   {
     imgName: 'lauren',
     imgSrc: './img/imgsmall/lauren-michelle-min.jpg',
+  },
+  {
+    imgName: 'poochie',
+    imgSrc: './img/imgsmall/poochie-min.jpeg',
   }
 
 
