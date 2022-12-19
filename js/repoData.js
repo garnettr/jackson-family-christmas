@@ -76,16 +76,16 @@ export const data = [
     imgSrc: './img/imgsmall/jenna-taylor-min.jpg',
   },
   {
+    imgName: 'ericka',
+    imgSrc: './img/imgsmall/ericka-armsted-min.jpg',
+  },
+  {
     imgName: 'eric',
     imgSrc: './img/imgsmall/eric-armstead-min.jpg',
   },
   {
     imgName: 'katrina',
     imgSrc: './img/imgsmall/katrina-armstead-min.jpg',
-  },
-  {
-    imgName: 'ericka',
-    imgSrc: './img/imgsmall/ericka-armsted-min.jpg',
   },
   {
     imgName: 'maya',
@@ -136,10 +136,6 @@ export const data = [
     imgSrc: './img/imgsmall/quin-freeman-min.jpeg',
   },
   {
-    imgName: 'remelda',
-    imgSrc: './img/imgsmall/remelda-jackson-min.jpg',
-  },
-  {
     imgName: 'jeff',
     imgSrc: './img/imgsmall/jeff-rollins-min.jpg',
   },
@@ -180,6 +176,10 @@ export const data = [
     imgSrc: './img/imgsmall/ronnel-coghill-min.jpg',
   },
   {
+    imgName: 'remelda',
+    imgSrc: './img/imgsmall/remelda-jackson-min.jpg',
+  },
+  {
     imgName: 'lauryn',
     imgSrc: './img/imgsmall/lauryn-wilson-min.jpg',
   },
@@ -212,12 +212,12 @@ export const data = [
     imgSrc: './img/imgsmall/bryant-bell-min.jpg',
   },
   {
-    imgName: 'stephanie',
-    imgSrc: './img/imgsmall/stephanie-bell-min.jpg',
-  },
-  {
     imgName: 'caitlin',
     imgSrc: './img/imgsmall/caitlin-bell-min.jpg',
+  },
+  {
+    imgName: 'stephanie',
+    imgSrc: './img/imgsmall/stephanie-bell-min.jpg',
   },
   {
     imgName: 'Boo',
@@ -228,16 +228,16 @@ export const data = [
     imgSrc: './img/imgsmall/margaet-hale-min.jpg',
   },
   {
+    imgName: 'josh',
+    imgSrc: './img/imgsmall/josh-hale-min.jpg',
+  },
+  {
     imgName: 'Diaunte',
     imgSrc: './img/imgsmall/Diaunte-bell-min.jpg',
   },
   {
     imgName: 'raven',
     imgSrc: './img/imgsmall/raven-bell-min.jpeg',
-  },
-  {
-    imgName: 'josh',
-    imgSrc: './img/imgsmall/josh-hale-min.jpg',
   },
   {
     imgName: 'angela',
