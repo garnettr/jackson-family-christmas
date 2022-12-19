@@ -51,9 +51,26 @@
 
 Body {
   font-family: 'DM Serif Text', serif;
-  background: #FFFFFF;
-  background: url('https://garnettr.github.io/jackson-family-christmas/img/07.png'),linear-gradient(to bottom, #fff, rgb(241,237,234));
+  background:linear-gradient(to bottom, #ddeff4, #ffffff);
   background-attachment: fixed;
+
+
+  &::after {
+    content: " ";
+    width: 100%;
+    height: 18vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: rgb(25,118,130);
+    background: linear-gradient(180deg, rgba(25,118,130,0) 20%, rgba(255,255,255,1) 100%);
+    z-index: 1;
+
+    @media only screen and (min-width: 900px) {
+      height: 10vh;
+    }
+  }
+ 
 }
 
 header {
@@ -61,8 +78,19 @@ header {
 
   h1 {
     font-size: 1.125rem;
+    text-indent: -999rem;
+    position: relative;
+    background: url('https://garnettr.github.io/jackson-family-christmas/img/imgsmall/family-logo.svg') no-repeat center;
+
+    @media only screen and (min-width: 900px) {
+      display: none;
+    }
   }
 }
+
+// ===============
+// intro
+
 
 .intro {
   position: relative;
@@ -72,7 +100,7 @@ header {
   margin-top: 9rem;
   padding: 5%;
 
-  @media only screen and (min-width: 821px) {
+  @media only screen and (min-width: 900px) {
     margin-top: 3rem;
   }
 
@@ -83,6 +111,7 @@ header {
     position: relative;
     margin-top: 0;
     z-index: 2;
+    display: none;
 
     @include fluidTypeSize(5.25, 3, $_mq-maxWidth: 75, $_mq-minWidth: 20);
 
@@ -92,15 +121,65 @@ header {
   }
 
   p {
-    color: #0e5e3e;
-    @include fluidTypeSize(1.5, 1.125, $_mq-maxWidth: 75, $_mq-minWidth: 20);
+    color: #2f5652;
+    padding: 1rem;
+    margin-top: 9rem;
+    position: relative;
+    @include fluidTypeSize(1.5, 1, $_mq-maxWidth: 75, $_mq-minWidth: 20);
+
+    &::after { 
+      content: " ";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -3rem;
+
+      width: 8rem;
+      height: 5rem;
+      margin: auto;
+
+      background: url('https://garnettr.github.io/jackson-family-christmas/img/imgsmall/holley.svg') no-repeat center;
+    }
+
     @media only screen and (min-width: 768px) {
       width: 62vw;
-      margin: auto;
+      margin: 8rem auto 0;
       max-width: 30rem;
     }
+
+    @media only screen and (min-width: 900px) {
+      margin: 5rem auto 0;
+      max-width: 52rem;
+      padding-left: 30vw;
+
+      &::before {
+        content: " ";
+        position: absolute;
+        top: -4.5rem;
+
+        width: 8rem;
+        height: 5rem;
+        margin: auto;
+        right: 30%;
+
+        background: url('https://garnettr.github.io/jackson-family-christmas/imgsmall/raindeer.svg') no-repeat center;
+      }
+
+      &::after { 
+        right: 30%;
+        left: inherit;
+      }
+
+    }
+
+    @media only screen and (min-width: 1200px) {
+      &::after { 
+        bottom: -3.5rem;
+      }
+    }
+
   }
-  // Christmas House
+  // Christmas wreath
   &::before {
     content: " ";
     position: absolute;
@@ -108,45 +187,24 @@ header {
     right: 0;
     margin: auto;
 
-    top: -9rem;
-    width: 50vw;
-    height: 100%;
+    top: -8rem;
+    width: 100%;
+    height: 17rem;
 
-    background: url('https://garnettr.github.io/jackson-family-christmas/img/house.png') no-repeat top center;
+    background: url('https://garnettr.github.io/jackson-family-christmas/img/imgsmall/logo-header-large.svg') no-repeat top center;
     background-size: contain;
      
 
-    @media only screen and (min-width: 821px) {
-      top: 9rem;
+    @media only screen and (min-width: 900px) {
+      top:  7rem;
       height: 100%;
-      width: 28vw;
-      left: 1%;
+      width: 26vw;
+      left: 3rem;
       position: fixed;
-
-      background: url('https://garnettr.github.io/jackson-family-christmas/img/house-large.png') no-repeat;
-      background-size: contain;
       margin: initial;
     }
   }
 
-
-  // Christmas Chair
-  &:after {
-    content: " ";
-    position: absolute;
-    right: 5rem;
-    top: 2rem;
-    width: 27%;
-    height: 95%;
-    // background-image: url('https://garnettr.github.io/jackson-family-christmas/img/house.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-
-    @media only screen and (min-width: 821px) {
-      background-image: url('https://garnettr.github.io/jackson-family-christmas/img/fire-place-large.png');
-      right: 3.5rem;
-    }
-  }
 
 
   h2 {
@@ -154,9 +212,64 @@ header {
   }
 }
 
+// ===============
+// snow container
+
+.snow-container {
+  position: fixed;
+}
+@function random_range($min, $max) {
+  $rand: random();
+  $random_range: $min + floor($rand * (($max - $min) + 1));
+  @return $random_range;
+}
+
+.snow {
+  $total: 200;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+
+  @for $i from 1 through $total {
+    $random-x: random(1000000) * 0.0001vw;
+    $random-offset: random_range(-100000, 100000) * 0.0001vw;
+    $random-x-end: $random-x + $random-offset;
+    $random-x-end-yoyo: $random-x + ($random-offset / 2);
+    $random-yoyo-time: random_range(30000, 80000) / 100000;
+    $random-yoyo-y: $random-yoyo-time * 100vh;
+    $random-scale: random(10000) * 0.0001;
+    $fall-duration: random_range(10, 30) * 1s;
+    $fall-delay: random(30) * -1s;
+
+    &:nth-child(#{$i}) {
+      opacity: random(10000) * 0.0001;
+      transform: translate($random-x, -10px) scale($random-scale);
+      animation: fall-#{$i} $fall-duration $fall-delay linear infinite;
+    }
+
+    @keyframes fall-#{$i} {
+      #{percentage($random-yoyo-time)} {
+        transform: translate($random-x-end, $random-yoyo-y) scale($random-scale);
+      }
+
+      to {
+        transform: translate($random-x-end-yoyo, 100vh) scale($random-scale);
+      }
+    }
+  }
+}
+
+
+// ===============
+// Family Playlist
+
+
 .family-playlist {
-  display: block;
-  top: 90%;
+
+  display: none;
+  top: 87%;
   position: fixed;
   z-index: 10;
   height: 4rem;
@@ -166,11 +279,13 @@ header {
     height: 6rem;
   }
 
-  @media only screen and (min-width: 821px) {
+  @media only screen and (min-width: 900px) {
+    display: block;
     width: 28vw;
     position: fixed;
     left: 3rem;
     bottom: 0;
+    top: 90%;
   }
 }
 
@@ -196,7 +311,7 @@ header {
   
   margin: auto;
 
-  @media only screen and (min-width: 821px) {
+  @media only screen and (min-width: 900px) {
     padding-left: 30vw;
     padding-right: 3rem;
   }
@@ -229,25 +344,30 @@ header {
 
 
     // wreath image
-    &:before {
-      content: " ";
-      position: absolute;
-
-      width: 9rem;
-      height: 9rem;
-
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-image: url('https://garnettr.github.io/jackson-family-christmas/img/wreath.png');
-
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-
-      @media only screen and (min-width: 768px) {
-        width: 14rem;
-        height: 14rem;
+    &.slideUp {
+      &:before {
+        content: " ";
+        position: absolute;
+  
+        min-width: 128%;
+        min-height: 121%;
+  
+        
+        background-repeat: no-repeat;
+        background-image: url('https://garnettr.github.io/jackson-family-christmas/img/imgsmall/wreath.svg');
+        background-size: contain;
+  
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+  
+        // @media only screen and (min-width: 768px) {
+        //   background-image: url('https://garnettr.github.io/jackson-family-christmas/img/wreath-large.png');
+        //   width: 14rem;
+        //   height: 14rem;
+        // }
       }
+  
     }
 
     //  css gradient
